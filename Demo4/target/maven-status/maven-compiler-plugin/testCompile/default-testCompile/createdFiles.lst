@@ -1,0 +1,10 @@
+libraries\Constants.class
+testscipt\Test2.class
+testscipt\Test3.class
+libraries\BasePage.class
+pom\GoogleSearchResultPO.class
+testscipt\Test1.class
+libraries\BaseTest.class
+libraries\Photo.class
+pom\GoogleHomePO.class
+testscipt\Test4.class

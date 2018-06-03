@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Title displayed isFacebook – log in or sign up]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Title displayed isInstagram]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Title displayed isLogin on Twitter]]>
+    </line>
+    <line>
+      <![CDATA[Title displayed isSign Up | LinkedIn]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="313431" started-at="2018-06-02T17:51:53Z" finished-at="2018-06-02T17:57:06Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="313431" started-at="2018-06-02T17:51:53Z" finished-at="2018-06-02T17:57:06Z">
+      <class name="testscipt.Test1">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testscipt.Test1@3d99d22e]" name="launchBrowser" is-config="true" duration-ms="4658" started-at="2018-06-02T17:51:53Z" finished-at="2018-06-02T17:51:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testFacebookHome()[pri:0, instance:testscipt.Test1@3d99d22e]" name="testFacebookHome" duration-ms="93829" started-at="2018-06-02T17:51:58Z" finished-at="2018-06-02T17:53:31Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Title displayed isFacebook – log in or sign up]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testFacebookHome -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscipt.Test1@3d99d22e]" name="closeBrowser" is-config="true" duration-ms="1094" started-at="2018-06-02T17:53:31Z" finished-at="2018-06-02T17:53:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testFacebookHome status=SUCCESS method=Test1.testFacebookHome()[pri:0, instance:testscipt.Test1@3d99d22e] output=Element is present]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testscipt.Test1 -->
+      <class name="testscipt.Test2">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testscipt.Test2@49fc609f]" name="launchBrowser" is-config="true" duration-ms="3427" started-at="2018-06-02T17:53:33Z" finished-at="2018-06-02T17:53:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testinstagramHome()[pri:0, instance:testscipt.Test2@49fc609f]" name="testinstagramHome" duration-ms="79864" started-at="2018-06-02T17:53:36Z" finished-at="2018-06-02T17:54:56Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Title displayed isInstagram]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testinstagramHome -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscipt.Test2@49fc609f]" name="closeBrowser" is-config="true" duration-ms="971" started-at="2018-06-02T17:54:56Z" finished-at="2018-06-02T17:54:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testinstagramHome status=SUCCESS method=Test2.testinstagramHome()[pri:0, instance:testscipt.Test2@49fc609f] output=Element is present]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testscipt.Test2 -->
+      <class name="testscipt.Test3">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testscipt.Test3@cd2dae5]" name="launchBrowser" is-config="true" duration-ms="3143" started-at="2018-06-02T17:54:57Z" finished-at="2018-06-02T17:55:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testtwitterHome()[pri:0, instance:testscipt.Test3@cd2dae5]" name="testtwitterHome" duration-ms="89435" started-at="2018-06-02T17:55:00Z" finished-at="2018-06-02T17:56:29Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Title displayed isLogin on Twitter]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testtwitterHome -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscipt.Test3@cd2dae5]" name="closeBrowser" is-config="true" duration-ms="970" started-at="2018-06-02T17:56:29Z" finished-at="2018-06-02T17:56:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testtwitterHome status=SUCCESS method=Test3.testtwitterHome()[pri:0, instance:testscipt.Test3@cd2dae5] output=Element is present]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testscipt.Test3 -->
+      <class name="testscipt.Test4">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:testscipt.Test4@3a883ce7]" name="launchBrowser" is-config="true" duration-ms="3228" started-at="2018-06-02T17:56:30Z" finished-at="2018-06-02T17:56:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="testtwitterHome()[pri:0, instance:testscipt.Test4@3a883ce7]" name="testtwitterHome" duration-ms="31816" started-at="2018-06-02T17:56:34Z" finished-at="2018-06-02T17:57:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title displayed isSign Up | LinkedIn]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testtwitterHome -->
+        <test-method status="PASS" signature="closeBrowser(org.testng.ITestResult)[pri:0, instance:testscipt.Test4@3a883ce7]" name="closeBrowser" is-config="true" duration-ms="942" started-at="2018-06-02T17:57:05Z" finished-at="2018-06-02T17:57:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testtwitterHome status=SUCCESS method=Test4.testtwitterHome()[pri:0, instance:testscipt.Test4@3a883ce7] output=Title displayed isSign Up | LinkedIn]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- testscipt.Test4 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
