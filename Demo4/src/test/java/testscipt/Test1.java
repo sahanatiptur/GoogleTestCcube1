@@ -21,7 +21,7 @@ public class Test1 extends BaseTest{
 			GoogleSearchResultPO searchPO=new GoogleSearchResultPO(driver);
 			searchPO.verifyElement(searchPO.facebooklink());
 			searchPO.facebooklink().click();
-			String eTitle = "Facebook – log in or sign up";
+			String eTitle = "Facebook – log in or sign up1";
 			wait.until(ExpectedConditions.titleContains(eTitle));
 			String aTitle =driver.getTitle();
 			Reporter.log("Title displayed is"+aTitle, true);
